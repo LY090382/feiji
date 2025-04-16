@@ -37,9 +37,9 @@ jobs:
           javascript-obfuscator origin.js --output _worker.js \
           --compact true \
           --control-flow-flattening true \
-          --control-flow-flattening-threshold 1 \
+          --control-flow-flattening-threshold 0.5 \
           --dead-code-injection true \
-          --dead-code-injection-threshold 1 \
+          --dead-code-injection-threshold 0.5 \
           --identifier-names-generator hexadecimal \
           --rename-globals true \
           --string-array true \
